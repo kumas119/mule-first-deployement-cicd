@@ -1,0 +1,15 @@
+#%RAML 1.0
+title: first-project-deployement
+baseUri: http://chit-chat-chai/{version}
+version: v1
+/name:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: 
+              {
+                name: satyam,
+                age: 29
+              }
